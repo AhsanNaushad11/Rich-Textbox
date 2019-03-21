@@ -1,0 +1,5 @@
+For ocr function:
+https://www.youtube.com/watch?v=iFjGkOl95vM
+https://www.youtube.com/redirect?event=video_description&v=iFjGkOl95vM&q=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F0B0UPsHnFukknblh4S1pBZUtXakU%2Fview%3Fusp%3Dsharing&redir_token=QcK0UrrVki5_HjSwpD055BOmbop8MTU1MzA5OTY2M0AxNTUzMDEzMjYz
+https://www.youtube.com/redirect?event=video_description&v=iFjGkOl95vM&q=https%3A%2F%2Fwww.nuget.org%2Fpackages%2FTesseract%2F&redir_token=QcK0UrrVki5_HjSwpD055BOmbop8MTU1MzA5OTY2M0AxNTUzMDEzMjYz
+https://www.youtube.com/redirect?event=video_description&v=iFjGkOl95vM&q=https%3A%2F%2Fgithub.com%2Ftesseract-ocr%2Ftesseract%2Fwiki%2FData-Files%23data-files-for-version-302&redir_token=QcK0UrrVki5_HjSwpD055BOmbop8MTU1MzA5OTY2M0AxNTUzMDEzMjYz

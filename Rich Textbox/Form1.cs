@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using Tesseract;
 
 namespace Rich_Textbox
 {
@@ -114,6 +115,29 @@ namespace Rich_Textbox
         private void Form1_Load(object sender, EventArgs e)
         {
 
+        }
+
+        /*Reads text from image from menustrip > File > Read from file > Image*/
+        private void ImageToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (BrowseImage.ShowDialog() == DialogResult.OK)
+                {
+                    var image = new Bitmap(BrowseImage.FileName);
+                    var tes_engine = new TesseractEngine("./tessdata", "eng", EngineMode.TesseractAndCube);
+                    var result = tes_engine.Process(image);
+                    MyTextBox.Text = result.GetText();
+                }
+            }
+            catch (Exception exp)
+            {
+                MessageBox.Show("The following exception occured:\n" + exp, "Exception message");
+            }
+            finally
+            {
+
+            }
         }
 
         /* Inserts date/time from menustrip > edit > date/time */
